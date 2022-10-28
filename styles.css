@@ -1,0 +1,47 @@
+@font-face {
+    font-family: "bebasFontStyle";
+    src: url("/font-styles/BebasNeue-Regular.woff2") format("woff2"), url("/font-styles/BebasNeue-Regular.woff")
+        format("woff");
+  }
+
+body{
+    background-color: #191919;
+}
+
+
+#container{
+    display: flex; /* or inline-flex */
+    flex-direction: row;   
+}
+
+.headerMain{
+    background: #204fcf7e;
+    color: #fffdd0ee;
+    flex-grow: 1;
+    order:1;
+}
+
+.hMain{
+    text-align: center;
+    font-family: 'bebasFontStyle';
+}
+
+.flex-Container{
+    text-align: center;
+}
+
+.flexItem{
+    height: 35vh;
+    width: 35vh;
+    padding-left: 100%;
+    background-color: #555;
+    position: relative;
+    box-sizing: border-box;
+    
+}
+
+.content {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }

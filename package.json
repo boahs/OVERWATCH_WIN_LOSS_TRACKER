@@ -4,7 +4,8 @@
   "description": "tracking overwatch match outcomes",
   "main": "scripts.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "open:http-server": ""
   },
   "repository": {
     "type": "git",
