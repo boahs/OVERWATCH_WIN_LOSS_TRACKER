@@ -1,5 +1,19 @@
 {
-  "dependencies": {
-    "http-server": "^14.1.1"
-  }
+  "name": "overtracker",
+  "version": "0.0.1",
+  "description": "tracking overwatch match outcomes",
+  "main": "scripts.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/boahs/OVERWATCH_WIN_LOSS_TRACKER.git"
+  },
+  "author": "boahs",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/boahs/OVERWATCH_WIN_LOSS_TRACKER/issues"
+  },
+  "homepage": "https://github.com/boahs/OVERWATCH_WIN_LOSS_TRACKER#readme"
 }
