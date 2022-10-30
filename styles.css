@@ -6,6 +6,7 @@
 
 body{
     background-color: #191919;
+    height: 100%;
 }
 
 
@@ -27,21 +28,86 @@ body{
 }
 
 .flex-Container{
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    flex-flow: row wrap;
+    height: 60vh;
+    background-color: #555;
 }
 
 .flexItem{
-    height: 35vh;
-    width: 35vh;
-    padding-left: 100%;
-    background-color: #555;
-    position: relative;
-    box-sizing: border-box;
-    
 }
 
-.content {
-    position: absolute;
-    top: 0;
-    left: 0;
+
+  .winButton {
+    font-family: 'bebasFontStyle';
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+  }
+  
+  .winButton:hover {background-color: #4CAF50}
+  
+  .winButton:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+
+  .loseButton {
+    font-family: 'bebasFontStyle';
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: red;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+  }
+  
+  .loseButton:hover {background-color: red}
+  
+  .loseButton:active {
+    background-color: red;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+
+  .resetButton {
+    font-family: 'bebasFontStyle';
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: yellowgreen;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+  }
+  
+  .resetButton:hover {background-color: yellowgreen}
+  
+  .resetButton:active {
+    background-color: yellowgreen;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
   }
